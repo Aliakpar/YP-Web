@@ -103,6 +103,7 @@ body {
 
 .block {
     padding: 100px 0;
+    text-align: center;
 }
 
 .block__title {
@@ -124,13 +125,13 @@ body {
     margin: 10px 0 90px;
     font-size: 1.25rem;
     color: var(--color-text-gray);
+    text-align: center;
 }
 
 .service {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    /*text-align: center;*/
 }
 
 .feature {
@@ -208,6 +209,75 @@ body {
     position: relative;
     margin-bottom: 25px;
     color: #cccccc;
+}
+
+.block-project {
+    position: relative;
+}
+
+.block-project__tablet {
+    position: absolute;
+    background-image: url(../img/iPadAir.png);
+    height: 599px;
+    width: 681px;
+    right: 0;
+    top: 200px;
+}
+
+.project {
+    max-width: 480px;
+    text-align: left;
+    padding-top: 0px;
+}
+
+.project__link {
+    font-weight: bold;
+    color: var(--color-text-green);
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.project__title {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    color: var(--color-text-black);
+}
+
+.project__desc {
+    font-family: 'Roboto Slab';
+    color: var(--color-text-gray);
+    line-height: 1.5;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+.project-list__items {
+    display: flex;
+    align-items: center;
+}
+
+.feature__text {
+    margin-top: 15px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.culture {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 90px; 
+    text-align: center;
+}
+
+.warp-position {
+    position: relative;
+}
+
+
+.block--light-gray {
+    background-color: #f9f9f9;
 }
 
 
